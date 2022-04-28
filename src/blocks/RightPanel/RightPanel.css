@@ -1,0 +1,79 @@
+.rightpanel {
+width: 1520px;
+}
+.rightpanel__item {
+  border-bottom: 1px solid #E8EAED;
+}
+.rightpanel__item_heading {
+  display: flex;
+  margin-left: 24px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.rightpanel__item_title {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.rightpanel__item_subtitle {
+  margin-top: 8px;
+  margin-left: 24px;
+  max-width: 1150px;
+}
+.rightpanel__item_duration {
+
+  margin-left: 24px;
+}
+.rightpanel__item_instructor {
+  margin-left: 16px;
+}
+.rightpanel__item_date {
+  margin-left: 16px;
+}
+.rightpanel__item_type {
+  margin-left: 16px;
+}
+.rightpanel__font {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;  
+  color: #626262;
+}
+.rightpanel__span {
+  color: #004C97;
+}
+.rightpanel__item_info {
+  margin-top: 16px;
+  display: flex;
+}
+.rightpanel__item_favourites {
+  text-decoration:none;
+  background: none;
+  border: none;
+}
+.favourites {
+  width: 20px;
+  height: 20px;
+}
+.rightpanel__item_link {
+  margin-top: 40px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+.rightpanel__item_button {
+  background: none;
+  border: none;
+  color: #0077C8;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0;
+}

@@ -1,0 +1,26 @@
+.leftpanel {
+  background-color: #F3F4F8;;
+  max-width: 400px;
+  height: 100%;
+  width: 100%;
+}
+.leftpanel__item {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.leftpanel__item_text {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #626262;
+  margin-left: 16px;
+}
+.leftpanel__img {
+width: 24px;
+height: 24px;
+border-radius: 4px;
+margin-left: 24px;
+}

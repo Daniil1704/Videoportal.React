@@ -1,0 +1,106 @@
+.header {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 64px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 100%;
+}
+.header__panel_left {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin-left: 24px;
+  max-width: 376px;
+  border-right: 1px solid #E8EAED;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__name {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #626262;
+
+}
+.header__button {
+
+  display: flex;
+}
+.header__arrow-left {
+  width: 48px;
+  height: 48px;
+
+}
+.header__grid {
+  background: url(../../img/grid.svg);
+  width: 48px;
+  height: 48px;
+}
+.header__grid:hover {
+  background: url(../../img/gridhover.svg);
+  width: 48px;
+  height: 48px;
+}
+.header__panel_right {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  justify-content: space-between;
+  width: 100%;
+}
+.header__logo {
+  width: 122px;
+  height: 40px;
+  padding-left: 24px;
+}
+.header__search{
+  max-width: 490px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #C8C8C8;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #C8C8C8;
+  padding-left: 16px;
+}
+.header__user {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 171px;
+}
+.header__user-name {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color:#000;
+}
+.header__user-type {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
+  text-align: right;
+}
+.header__user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 70px;
+}
+.header__user_info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+}
