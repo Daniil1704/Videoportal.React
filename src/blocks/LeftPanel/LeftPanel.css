@@ -1,13 +1,13 @@
 .leftpanel {
   background-color: #F3F4F8;;
   max-width: 400px;
-  height: 100%;
+
   width: 100%;
 }
 .leftpanel__item {
   display: flex;
   align-items: center;
-  height: 64px;
+  height: 55px;
 }
 .leftpanel__item_text {
   font-family: 'Proxima Nova';
